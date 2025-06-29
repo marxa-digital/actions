@@ -1,0 +1,8 @@
+name: "Deploy a Firebase Function"
+description: "A GitHub Action to deploy only a Firebase Functions"
+runs:
+  using: "docker"
+  image: "Dockerfile"
+branding:
+  icon: "cloud"
+  color: "orange"
